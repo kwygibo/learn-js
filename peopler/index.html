@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Top Row -->
+        <div class="box">
+            <h1>People entered:</h1>
+            <div>
+                <h2 id="count-el">0</h2>
+            </div>
+        </div>
+        <div class="button-group">
+
+            <button id="increment-btn" onclick="increment()">Increment</button>
+            <button id="save-btn" onclick="save()">Save</button>
+            <button id="reset-btn" onclick="reset()">Reset</button>
+        </div>
+        <p class="bottom-text" id="save-el">Previous Entries
+            Previous entries: <span id="save-el">None</span>
+        </p>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
